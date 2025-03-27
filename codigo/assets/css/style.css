@@ -9,6 +9,15 @@
 body {
     margin: 0;
     background-color: #f4f6f9;
+    display: flexbox;
+
+    & #cronometro {
+        align-items: center;
+        font-size: 1.5em;
+        justify-content: flex-end;
+    }
+
+
 }
 
 header {
@@ -96,7 +105,7 @@ header {
     & #menu a:hover{
         color: #ef3642;
     }
-    
 }
+
 
 
