@@ -1,0 +1,36 @@
+/* Reset de Formatação */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tags do Body */
+body {
+    margin: 0;
+    background-color: #f4f6f9;
+}
+
+header {
+    display: flex;
+    align-items: center;
+
+    & img{
+        width: 6%;
+    }
+
+    & #nome {
+        display: flex;
+        flex-direction: column;
+    }
+
+    & #nome #study {
+        color: #444444;
+    }
+    
+    & #nome #flow {
+        color: #ef3642;
+    }
+}
+
+
