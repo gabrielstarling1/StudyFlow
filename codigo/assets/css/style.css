@@ -15,11 +15,25 @@ header {
     display: flex;
     align-items: center;
     padding: 10px;
-    background-color: #95191e;
+    background-color: #361216;
+    width: 100%;
+    justify-content: space-between;
     
+    
+    & #logotipo {
+        width: 14%;
+        margin: 5px 22px;
+    }
 
-    & img{
-        width: 6%;
+    & #tudo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    & #texto {
+        display: flex;
+        flex-direction: column;
     }
 
     & #nome {
@@ -28,12 +42,55 @@ header {
     }
 
     & #nome #study {
-        color: #444444;
+        color: #e9eaea;
+        margin-bottom: 1px;
     }
     
     & #nome #flow {
         color: #ef3642;
+        margin-bottom: 1px;
     }
+
+    & #texto #slogan {
+        color: #e9eaea;
+    }
+
+    & #menu {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    & #menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        
+    }
+
+    & #menu li {
+        padding: 10px;
+        margin-right: 20px;
+        border-radius: 5px;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, font-weight 0.3s ease-in-out;
+        font-size: 1.2em;
+    }
+
+    & #menu li:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
+        font-weight: bold;
+    }
+
+    & #menu a{
+        text-decoration: none;
+        color: #e9eaea;
+    }
+
+    & #menu a:hover{
+        color: #ef3642;
+    }
+    
 }
 
 
