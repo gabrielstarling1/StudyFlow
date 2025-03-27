@@ -24,7 +24,7 @@ header {
 
     & #nome {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     & #nome #study {
