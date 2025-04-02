@@ -5,20 +5,6 @@
     box-sizing: border-box;
 }
 
-/* Tags do Body */
-body {
-    margin: 0;
-    background-color: #f4f6f9;
-    display: flexbox;
-
-    & #cronometro {
-        align-items: center;
-        font-size: 1.5em;
-        justify-content: flex-end;
-    }
-
-
-}
 
 header {
     display: flex;
@@ -27,7 +13,7 @@ header {
     background-color: #361216;
     width: 100%;
     justify-content: space-between;
-
+    
     & #tomatao {
         width: 4.5%;
     }
@@ -37,23 +23,23 @@ header {
         width: 14%;
         margin: 5px 22px;
     }
-
+    
     & #tudo {
         display: flex;
         flex-direction: row;
         align-items: center;
     }
-
+    
     & #texto {
         display: flex;
         flex-direction: column;
     }
-
+    
     & #nome {
         display: flex;
         flex-direction: row;
     }
-
+    
     & #nome #study {
         color: #e9eaea;
         margin-bottom: 1px;
@@ -63,11 +49,11 @@ header {
         color: #ef3642;
         margin-bottom: 1px;
     }
-
+    
     & #texto #slogan {
         color: #e9eaea;
     }
-
+    
     & #menu {
         display: flex;
         justify-content: flex-end;
@@ -82,7 +68,7 @@ header {
         align-items: center;
         
     }
-
+    
     & #menu li {
         padding: 15px;
         margin: 5px 20px 5px 5px;
@@ -90,21 +76,42 @@ header {
         transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, font-weight 0.3s ease-in-out;
         font-size: 1.2em;
     }
-
+    
     & #menu li:hover {
         transform: translateY(-5px);
         box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
         font-weight: bold;
     }
-
+    
     & #menu a{
         text-decoration: none;
         color: #e9eaea;
     }
-
+    
     & #menu a:hover{
         color: #ef3642;
     }
+}
+/* Tags do Body */
+body {
+    margin: 0;
+    display: flexbox;
+    background: #d1a5a8;
+     
+
+    & #cronometro {
+        align-items: center;
+        font-size: 1.5em;
+        justify-content: flex-end;
+    }
+
+
+}
+
+footer {
+    margin: 0;
+    display: table-row;
+    background: #361216;
 }
 
 
